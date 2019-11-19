@@ -1,0 +1,14 @@
+﻿---
+ID: "5f913ba3-2f34-4a8e-80e6-574e0e26d2b2"
+Parent: "1995806f-0a84-42b5-93b0-88f0e2ff872c"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/HelixExample
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191119T081230Z

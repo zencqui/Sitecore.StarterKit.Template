@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{2356361C-EB51-4626-BC42-EE165CA686F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E6F74988-4839-42A2-B2C3-2EC9ECAD53B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{70FABC52-77B7-4EEC-ACB5-91481E95E573}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{F3B676E4-D887-4412-A818-B11F9017DF16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{2875509A-A1D3-42D4-ACBB-F41346B669A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixExample.Foundation.Serialization", "src\Foundation\Serialization\code\HelixExample.Foundation.Serialization.csproj", "{09AA12DE-2242-4194-BC3A-B5689D2BDE90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelixExample", "HelixExample", "{9E1E0EC2-EED1-46C0-AF31-ECD7E6195079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixExample.Website", "src\Project\HelixExample\code\HelixExample.Website.csproj", "{283273C8-9541-452D-B620-160FD56FA7B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{929432AF-B885-4759-84C2-28EDD16D59F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixExample.Foundation.DependencyInjection", "src\Foundation\DependencyInjection\code\HelixExample.Foundation.DependencyInjection.csproj", "{C5CBEF0D-B846-4762-9CCF-57B6853F382B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09AA12DE-2242-4194-BC3A-B5689D2BDE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AA12DE-2242-4194-BC3A-B5689D2BDE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AA12DE-2242-4194-BC3A-B5689D2BDE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AA12DE-2242-4194-BC3A-B5689D2BDE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283273C8-9541-452D-B620-160FD56FA7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283273C8-9541-452D-B620-160FD56FA7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283273C8-9541-452D-B620-160FD56FA7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283273C8-9541-452D-B620-160FD56FA7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5CBEF0D-B846-4762-9CCF-57B6853F382B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CBEF0D-B846-4762-9CCF-57B6853F382B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CBEF0D-B846-4762-9CCF-57B6853F382B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CBEF0D-B846-4762-9CCF-57B6853F382B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2875509A-A1D3-42D4-ACBB-F41346B669A9} = {E6F74988-4839-42A2-B2C3-2EC9ECAD53B5}
+		{09AA12DE-2242-4194-BC3A-B5689D2BDE90} = {2875509A-A1D3-42D4-ACBB-F41346B669A9}
+		{9E1E0EC2-EED1-46C0-AF31-ECD7E6195079} = {70FABC52-77B7-4EEC-ACB5-91481E95E573}
+		{283273C8-9541-452D-B620-160FD56FA7B8} = {9E1E0EC2-EED1-46C0-AF31-ECD7E6195079}
+		{929432AF-B885-4759-84C2-28EDD16D59F4} = {E6F74988-4839-42A2-B2C3-2EC9ECAD53B5}
+		{C5CBEF0D-B846-4762-9CCF-57B6853F382B} = {929432AF-B885-4759-84C2-28EDD16D59F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {56BB78E5-EFC1-484D-9C68-67CACD52A6D2}
+	EndGlobalSection
+EndGlobal
