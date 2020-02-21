@@ -6,23 +6,23 @@ namespace HelixExample.Foundation.Multisite
     {
         public struct Site
         {
-            public static ID ID = new ID("{BB85C5C2-9F87-48CE-8012-AF67CF4F765D}");
+            public static ID ID = new ID("{D3403FBE-068F-4F45-A762-7236EABBC573}");
         }
 
         public struct DatasourceConfiguration
         {
-            public static ID ID = new ID("{C82DC5FF-09EF-4403-96D3-3CAF377B8C5B}");
+            public static ID ID = new ID("{AC93B000-052A-4958-8C43-2F87DBDB5ADF}");
 
             public struct Fields
             {
-                public static readonly ID DatasourceLocation = new ID("{5FE1CC43-F86C-459C-A379-CD75950D85AF}");
-                public static readonly ID DatasourceTemplate = new ID("{498DD5B6-7DAE-44A7-9213-1D32596AD14F}");
+                public static readonly ID DatasourceLocation = new ID("{F4B5F6B0-6B10-4E3E-83B7-D0522141154A}");
+                public static readonly ID DatasourceTemplate = new ID("{C6D026D0-F108-4370-96AC-76FD910C9775}");
             }
         }
 
         public struct SiteSettings
         {
-            public static ID ID = new ID("{BCCFEBEA-DCCB-48FE-9570-6503829EC03F}");
+            public static ID ID = new ID("{E98CFBDD-011A-4FF4-942C-856CA9B7F6C0}");
         }
 
         public struct RenderingOptions

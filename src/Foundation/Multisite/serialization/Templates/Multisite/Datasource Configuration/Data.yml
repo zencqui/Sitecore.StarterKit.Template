@@ -1,0 +1,14 @@
+﻿---
+ID: "586d4168-16b9-418c-a780-9dde862d5ada"
+Parent: "ac93b000-052a-4958-8c43-2f87dbdb5adf"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Multisite/Datasource Configuration/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191121T073443Z
